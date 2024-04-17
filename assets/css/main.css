@@ -68,6 +68,14 @@
             line-height: 26px; /* 54.167% */
             margin-bottom: 155px;
         }
+        
+        #projects > .card {
+            display: flex;
+        }
+
+        .coldegg {
+            margin: 0 40px;
+        }
 
         h1 {
             color: #333;
