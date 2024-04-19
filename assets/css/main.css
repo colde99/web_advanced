@@ -53,16 +53,20 @@ body {
    border-radius: 0.5em;
    padding: 0.85em;
    border: solid 1px transparent;
-   -moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+   /*-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
    -webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
    -ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-   transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+   transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;*/
 }
 
 .navtab > li a {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-decoration: none;
    text-shadow: 0px 0px 5px rgb(199, 93, 114);
+}
+
+.navtab > li:hover a {
+   text-shadow: 0px 0px 5px rgb(255, 213, 213);
 }
 
 /* SNS Link*/
@@ -117,19 +121,30 @@ body {
    display: flex;
 }
 
-#projects > .projects-card > .coldegg {
-   padding: 48px;
+#projects > .projects-card > .card {
    border-radius: 30px;
    background-color: rgba(255, 255, 255, 0.5);
    box-shadow: 0px 0px 50px rgb(239, 219, 223);
 }
 
-.coldegg {
+.card {
    margin: 0 40px;
 }
 
-.coldegg > figure {
-   margin-bottom: 30px;
+.card > .thumnail {
+   width: 100%;
+   height: 120px;
+   /* 위쪽 둥글게 둥글게 */
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   /* 배경 이미지 가운데 정렬, 가득차게 */
+   background-image: url("/images/project1.png");
+   background-position: center;
+   background-size: cover;
+}
+
+.card > .text {
+   padding: 40px;
 }
 
 h1 {
