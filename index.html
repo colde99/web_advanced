@@ -1,100 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <title>EGG</title>
-    
-</head>
-<body class="homepage is-preload">
-    <div id="page-wrapper">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="assets/css/responsive.css" />
 
-        <!--Header-->
-            <div id="header">
+      <title>EGG</title>
+   </head>
 
-                <!--Nav-->
-                <nav id="nav">
-                    <ul class = "navtab">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#banner">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="">Daily</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav> 
+   <body class="homepage is-preload">
+      <div id="page-wrapper">
+         <!--Header-->
+         <div id="header">
+            <!--Nav-->
+            <nav id="nav">
+               <a href="index.html"
+                  ><img src="images/logo_png.png" height="100"
+               /></a>
+               <ul class="navtab">
+                  <li><a href="#banner" style="color: white">About</a></li>
+                  <li><a href="#projects" style="color: white">Projects</a></li>
+                  <li><a href="" style="color: white">Daily</a></li>
+                  <li><a href="#contact" style="color: white">Contact</a></li>
+               </ul>
+            </nav>
 
-                <!--Banner-->
-                <section id="banner">
-                    <div class="logo">
-                        <h1><a href="index.html" id="logo">logo</a></h1>            
-                    </div>
-                    <div class="text">
-                        <h2>Hi,<br>I'm cold egg.<br>I like to build a <strong>User-friendly</strong> interface.
-                        </h2>
-                    </div>
-                </section>
-                           
-            </div>        
-        
-        <!--Carousel-->
+            <!--SNS Link-->
+            <div id="sns">
+               <a href="https://github.com/colde99/colde99"
+                  ><img src="images/github_logo.svg" alt="github"
+               /></a>
+               <a href=""><img src="images/twiter_logo.svg" alt="twiter" /></a>
+               <a href=""
+                  ><img src="images/linkedin_logo.svg" alt="linkedin"
+               /></a>
+            </div>
+         </div>
+
+         <!--Main-->
+         <div id="main-content">
+            <!--Banner-->
+            <section id="banner">
+               <div class="logo"></div>
+               <div class="introduce">
+                  <h2>
+                     <span style="font-size: 47px">Hi,</span>
+                     <span style="font-weight: 200"
+                        >I'm cold egg.🍳<br />
+                        I like to build a</span
+                     >
+                     User friendly
+                     <span style="font-weight: 200">interface.</span>
+                  </h2>
+               </div>
+            </section>
+            <!--Carousel-->
             <section id="stack">
-                <div class="stacklist">
-                    <h2>My Tech Stack</h2>
-                    <img src="images/python_logo.svg">
-                    <img src="images/R_logo.svg">
-                    <img src="images/jupyter_logo.svg">
-                </div>
-            </section>  
+               <h2>My Tech Stack</h2>
+               <div class="stack-item">
+                  <img src="images/python_logo.svg" alt="python" />
+                  <img src="images/R_logo.svg" alt="R" />
+                  <img src="images/jupyter_logo.svg" alt="jupyter" />
+               </div>
+            </section>
 
-        <!--Main-->
-        <section id="projects">
-            <div class="card">
-                
-                <article class="coldegg">
-                    <img src="" alt="" />
-                    <header>
+            <!--Projects-->
+            <section id="projects">
+               <div class="projects-card">
+                  <article class="coldegg">
+                     <img src="" alt="" />
+                     <figure>
+                        <img src="images/project1.png" width="200" />
+                     </figure>
+                     <h3>ML Prediction</h3>
+                     <p>
+                        <br />
+                        - Logistic Regression / RandomForest model <br />- It
+                        predicts illegal parking of scooter at Dong-dae-moon-gu
+                     </p>
+                  </article>
+
+                  <article class="coldegg">
+                     <img src="" alt="" />
+                     <h3>ML Prediction</h3>
+                     <p>
+                        - Logistic Regression / RandomForest model <br />- It
+                        predicts illegal parking of scooter at Dong-dae-moon-gu
+                     </p>
+                  </article>
+
+                  <article class="coldegg">
+                     <img src="" alt="" />
+                     <header>
                         <h3>ML Prediction</h3>
-                    </header>
-                    <p>- Logistic Regression / RandomForest model
-                    <br>- It predicts illegal parking of scooter at Dong-dae-moon-gu
-                    </p>
-                </article>
+                     </header>
+                     <p>
+                        - Logistic Regression / RandomForest model <br />- It
+                        predicts illegal parking of scooter at Dong-dae-moon-gu
+                     </p>
+                  </article>
+               </div>
+            </section>
+         </div>
 
-                <article class="coldegg">
-                    <img src="" alt="" />
-                    <header>
-                        <h3>ML Prediction</h3>
-                    </header>
-                    <p>- Logistic Regression / RandomForest model
-                    <br>- It predicts illegal parking of scooter at Dong-dae-moon-gu
-                    </p>
-                </article>
-
-                <article class="coldegg">
-                    <img src="" alt="" />
-                    <header>
-                        <h3>ML Prediction</h3>
-                    </header>
-                    <p>- Logistic Regression / RandomForest model
-                    <br>- It predicts illegal parking of scooter at Dong-dae-moon-gu
-                    </p>
-                </article>
-
-            </div>
-        </section>
-        
-        <div id="contact">
+         <div id="contact">
             <div class="contact-info">
-                <ul>
-                    <li>Email: <a href="coldegg99@gmail.com">coldegg99@gmail.com</a></li>
-                    <li>Phone: <a href="tel:01099370039">01099370039</a></li>
-                    <!-- 다른 연락 수단을 추가할 수 있습니다. -->
-                </ul>
+               <ul>
+                  <li>
+                     Email:
+                     <a href="mailto:coldegg99@gmail.com"
+                        >coldegg99@gmail.com</a
+                     >
+                  </li>
+                  <li>Phone: <a href="tel:010-9937-0039">01099370039</a></li>
+                  <!-- 다른 연락 수단을 추가할 수 있습니다. -->
+               </ul>
             </div>
-        </div>
-        
-    </div>
-    
-</body>
+         </div>
+      </div>
+   </body>
 </html>
